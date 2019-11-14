@@ -12,6 +12,7 @@ body {
 .box {
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 .box .sconto{
   position: absolute;
@@ -23,4 +24,17 @@ body {
 }
 .box:nth-child(even) .sconto{
   background: red;
+}
+.box .heart {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  padding: 5px;
+  text-align: center;
+  display: none;
+  color: red;
+
+}
+.box:hover .heart {
+  display: block;
 }
