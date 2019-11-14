@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  padding: 10px;
+
+}
+.row {
+  margin-bottom: 20px;
+
+}
+.box {
+  
+  display: inline-block;
+
+}
