@@ -5,14 +5,22 @@
 }
 body {
   padding: 10px;
-
 }
 .row {
   margin-bottom: 20px;
-
 }
 .box {
-  
+  position: relative;
   display: inline-block;
+}
+.box .sconto{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: green;
 
+}
+.box:nth-child(even) .sconto{
+  background: red;
 }
